@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>contest 2</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>New Employee</header>
+
+        <form action="#" name="form">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title"><u>Personal Details</u></span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Enter Name:-</label>
+                            <input type="text" placeholder="Enter your name" id="name" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Enter Profession:-</label>
+                            <input type="text" placeholder="Enter your profession" id="profession" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Enter Age:-</label>
+                            <input type="number" placeholder="Enter your age" id="age" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="nextBtn" onclick="add()">
+                    <span class="btnText">Add User</span>
+                </button>
+            </div>
+            <p id="m"></p>
+            <div class="lower-text">
+                <p style="color: black;">Added Employees:-</p>
+            </div>
+
+            <table id="tb">
+                <p id="a">You have 0 Employees.</p>
+            </table>
+        </form>
+        <script src="script.js"></script>
+</body>
+
+</html>
